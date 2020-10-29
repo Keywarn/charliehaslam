@@ -529,6 +529,17 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  max-width: 100%;
+  max-height: 13em;
+}
+
+.portfolio-wrap > img {
+  display: block;
+  box-sizing:content-box;
+  height: 13em;
+  width: 100%;
+  object-fit: cover;
+
 }
 
 .portfolio .portfolio-wrap::before {
