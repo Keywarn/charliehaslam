@@ -987,6 +987,15 @@ section {
   z-index: 1;
 }
 
+.portfolio-details .portfolio-details-carousel .img-fluid {
+  display: block;
+  box-sizing:content-box;
+  height: 40em;
+  width: 100%;
+  object-fit: cover;
+
+}
+
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
